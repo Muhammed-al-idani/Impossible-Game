@@ -37,3 +37,15 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Ignore any file ending with XYZ:
+*.XYZ
+
+# Ignore this file specifically: 
+Assets/Scripts/SomeFile.png
+
+# Tell to ignore a Scripts directory on the root level only:
+/SomeStuff/
+
+# Tell to ignore all directories called Scripts:
+OtherStuff/
